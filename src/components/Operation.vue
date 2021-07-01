@@ -25,7 +25,7 @@
         </v-col>
         <v-col cols="2" md="2" sm="2">
           <v-card>
-            <v-card-title>Fecha de emision</v-card-title>
+            <v-card-title>Fecha de descuento</v-card-title>
             <v-text-field
             readonly
             v-model="paymentLetter.emisisonDate">

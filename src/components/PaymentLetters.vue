@@ -76,7 +76,7 @@
                           <template v-slot:activator="{ on, attrs }">
                             <v-text-field
                               v-model="editedItem.emisisonDate"
-                              label="Fecha de emisión"
+                              label="Fecha de descuento"
                               prepend-icon="mdi-calendar"
                               readonly
                               v-bind="attrs"
@@ -200,7 +200,7 @@ export default {
     headers: [
       { text: 'Moneda', value: 'currency' },
       { text: 'Monto', value: 'amount' },
-      { text: 'Fecha de emisión', value: 'emisisonDate' },
+      { text: 'Fecha de descuento', value: 'emisisonDate' },
       { text: 'Fecha de vencimiento', value: 'expirationDate' },
       { text: 'Opciones', value: 'actions', sortable: false },
       { text: '', value: 'operation', sortable: false}
